@@ -1,0 +1,38 @@
+.successPart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px;
+    padding: 30px;
+    background: #F4F5F8;
+    border-radius: 5px;
+    margin-top: 25vh;
+}
+
+.successPgh {
+    font-size: 24px;
+    color: green;
+    font-weight: 600;
+}
+
+.doneParent {
+    color: green;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.doneIcon {
+    font-size: 40px;
+}
+
+.buttonTry {
+    all: unset;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    border: solid 2px gray;
+    cursor: pointer;
+}

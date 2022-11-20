@@ -1,0 +1,147 @@
+.uploadPage {
+    width: 100%;
+    display: flex;
+    max-width: calc(100% - 10vw);
+    flex-direction: column;
+    margin-top: 25vh;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 24px;
+    gap: 16px;
+    border: 2px solid #b7b7b7;
+    border-radius: 16px;
+}
+
+
+.uploadPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 24px;
+    min-height: 40vh;
+    gap: 16px;
+    border: 2px dashed #b7b7b7;
+    border-radius: 16px;
+}
+
+.uploadDescription {
+    font-family: "Gilroy-regular";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: "kern" off;
+    color: #5f5f5f;
+  }
+  
+.uploadButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 24px;
+    border: thick;
+    font-family: "Gilroy-medium";
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: "kern" off;
+    background: #c209c1;
+    border-radius: 8px;
+}
+
+.uploadPart:hover {
+    background-color: rgba(250, 234, 250, 0.3);
+}
+
+
+.uploadPart[draggable="true"] {
+    background: rgba(250, 234, 250, 0.3);
+    border: 2px dashed #c209c1;
+}
+
+.uploadButtonPart {
+    display: flex;
+    justify-content: center;
+}
+
+.fileNamePart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+}
+.files {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: rgb(223 214 214);
+    border-radius: 6px;
+}
+
+.shareUrlPart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.urlDesc {
+    color: #5f5f5f;
+}
+
+
+.urlText {
+    border: #5f5f5f solid 2px;
+    border-radius: 15px;
+
+}
+
+.fileAbout {
+    font-size: large;
+}
+
+.buttonsDiv {
+    display: flex;
+    gap: 15px;
+}
+
+.cancelUploadButton {
+    border: solid 1px rgb(23, 46, 216);
+    color: rgb(23, 46, 216);
+    border-radius: 5px;
+    padding: 15px;
+    background: #ffffff;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submitButton {
+    background: rgb(23, 46, 216);
+    color: #ffffff;
+    padding: 15px;
+    font-size: large;
+    font-weight: 500;
+    border: solid 1px rgb(23, 46, 216);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.signOutButton {
+    margin-top: 6px;
+    background: #ffffff;
+    border: #5f5f5f 1px solid;
+    padding: 10px 7px;
+    font-size: large;
+    border-radius: 3px;
+    cursor: pointer;
+}
