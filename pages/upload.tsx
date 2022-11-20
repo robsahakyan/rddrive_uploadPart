@@ -119,7 +119,8 @@ export default function UploadPart({token}: {token: string}) {
                 headers: { Authorization: `Bearer ${token}` }
             };
             const { data } = await axios.get(url)
-            await axios.put(`https://graph.microsoft.com/v1.0/me/drive/root:/myNewFolder/kqkqkqk:/content`, data , config)
+            let filename = url.substring(url.lastIndexOf('/')+1)
+            await axios.put(`https://graph.microsoft.com/v1.0/me/drive/root:/myNewFolder/${filename}:/content`, data , config)
 
             setToFetching(false)
             setResult(true)
